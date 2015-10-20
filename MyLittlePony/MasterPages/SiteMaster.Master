@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="MyLittlePony.MasterPages.SiteMaster" %>
-
+<%@ Register TagPrefix="uc" TagName="Menu" Src="~/UserControls/Menu.ascx" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -48,21 +48,7 @@
                 <div id="header">
                     <h1 class="site-logo"><a href="index.html" class="pngfix">Paragon Stables</a></h1>
                     <div id="navigation">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="sales.html">Sales</a></li>
-                            <li><a href="news.html">News</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                        <div class="search">
-                            <form action="#" method="post">
-                                <p>
-                                    <input type="text" name="search" class="form-text" />
-                                    <input type="submit" value="Search" class="form-submit" />
-                                </p>
-                            </form>
-                        </div>
+                        <uc:Menu runat="server" />
                         <!--End search  -->
                     </div>
                     <!--End navigation -->
