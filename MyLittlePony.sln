@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLittlePony", "MyLittlePony\MyLittlePony.csproj", "{5A9FB46D-648A-47AD-8EDB-FABA96FE1949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLittlePony-v2", "..\MyLittlePony-v2\MyLittlePony-v2.csproj", "{16613C4E-C89E-4214-8220-70EE56C731D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLittlePony-v2", "MyLittlePony-v2\MyLittlePony-v2.csproj", "{16613C4E-C89E-4214-8220-70EE56C731D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
