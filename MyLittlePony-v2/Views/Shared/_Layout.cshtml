@@ -1,0 +1,41 @@
+﻿<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Premium HTML Template by wwww.creativestable.com" />
+    <meta name="keywords" content="" />
+    <title>@ViewBag.Title</title>
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+
+    <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/front.css" media="all" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie.css" />
+    <script type="text/javascript" src="js/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('.pngfix'); </script>
+    <![endif]-->
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.innerfade.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(
+                 function () {
+                     $('#fade').innerfade({
+                         animationtype: 'fade',
+                         speed: 'slow',
+                         timeout: 2000,
+                         type: 'sequence',
+                         containerheight: '261px',
+                         runningclass: 'innerfade'
+                     });
+                 });
+    </script>
+</head>
+
+<body class="front">
+    @RenderBody()
+</body>
+
+</html>
