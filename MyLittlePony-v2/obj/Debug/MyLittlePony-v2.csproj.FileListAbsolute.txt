@@ -16,3 +16,9 @@ C:\Users\Administrator\Documents\Development\MyLittlePony-v2\bin\System.Web.Mvc.
 C:\Users\Administrator\Documents\Development\MyLittlePony-v2\obj\Debug\MyLittlePony-v2.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Development\MyLittlePony-v2\obj\Debug\MyLittlePony-v2.dll
 C:\Users\Administrator\Documents\Development\MyLittlePony-v2\obj\Debug\MyLittlePony-v2.pdb
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony-v2\bin\MyLittlePony-v2.dll.config
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony-v2\bin\MyLittlePony-v2.dll
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony-v2\bin\MyLittlePony-v2.pdb
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony-v2\obj\Debug\MyLittlePony-v2.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony-v2\obj\Debug\MyLittlePony-v2.dll
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony-v2\obj\Debug\MyLittlePony-v2.pdb
