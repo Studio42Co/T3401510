@@ -1,0 +1,175 @@
+Paragon Stables
+Created: September 3, 2009
+By: Amy Steen
+Contact Info: amy@creativestable.com
+Follow me on twitter! www.twitter.com/creativestable
+www.creativestable.com
+
+Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email, via my user page contact form. Thanks so much!
+
+--TABLE OF CONTENTS--
+
+A) HTML Structure 
+B) CSS Files
+C) Javascript 
+D) PSD Files
+E) PHP Code Explanation
+F) Miscellaneous Need-to-know info!
+
+----------------------------------------------------------------------------------------------------------
+
+A) HTML Structure
+
+This theme is a fixed layout with one and two columns. All of the information within the main content area is nested within a div with an id of "primary". The sidebar's (column #2) content is within a div with a class of "column-2". 
+
+If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:
+
+#primary a {
+   color: #someColor;
+} 
+
+If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight. 
+
+I.E.
+
+#container #primary a {
+color: #someColor;
+}
+
+So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours. 
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+B) CSS
+
+I'm using four CSS files in this theme. 
+
+reset.css
+Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file. 
+
+front.css
+All styles on the homepage are contained in this css file. I find that it is easier to keep the front page styles separate as often times the front page follows different layout patterns than inside pages.
+
+style.css
+This is the main stylesheet for all inside pages. The file is separated into sections using:  
+
+/* Layout Specific Styles ==============================    */ 
+- generic styles such as background color that are consistent throughout all regions     
+
+/* Header ==============================    */ 
+- Contains the site logo.
+
+/* Navigation and Search ==============================    */ 
+- Self explainatory. The navigation is text based for easy updating.
+
+/*Primary ==============================    */ 
+- Main section of the site that contains the body of pages.
+
+/*Bottom Container ==============================    */ 
+- Simply a container to hold the secondary and tertiary regions.
+
+/*Secondary ==============================    */
+- Current Residents section
+
+/*Tertiary ==============================    */  
+- Recent News section
+
+/*Footer ==============================    */
+- Site copyright
+
+If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited. 
+
+IMAGES
+Images with a class of "img-left" will be be properly formatted to float to the left of the content with a border and sufficient margins. For example: <img src="image.jpg" class="img-left" alt="image name" /> 
+
+Images with a class of "img-right" will be be properly formatted to float to the right of the content with a border and sufficient margins. For example: <img src="image.jpg" class="img-right" alt="image name" /> 
+
+ITEM LISTS
+You will notice on pages such as the sales and news page that the content is nicely arranged on the page and given a bottom border. It works in the following format: 
+<div class="item">
+	YOUR CONTENT HERE
+</div>
+<div class="item">
+	YOUR CONTENT HERE
+</div>
+
+These div tags have borders on the bottom of them, so the last item in a list should NOT be contained in a div with a class of "item".
+
+To create a line between content (like on the about page) use the hr element: <hr />.
+
+META TAGS
+The site includes lines to put in your own site description and keywords for each page to optimize your site for search engines. Keep your descriptions relevant and to the point. Same goes for keywords. Avoid duplication of data here! These meta tags are located in the HEAD of each html page. They look like this:
+<meta name="description" content="YOUR SITE DESCRIPTION" />
+<meta name="keywords" content="YOUR KEYWORDS" />
+
+While on the topic of search engine optimization, be sure to also fill in your title tags which are located in the same section as the meta tags. They look like this: <title>YOUR PAGE TITLE</title>. I recommend following a similar pattern as I have included with these files.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+C) Javascript
+
+This theme imports three Javascript files.
+
+  1) jQuery
+  2) jQuery Innerfade
+  3) DD Belated PNG
+
+1) jQuery is a Javascript library that greatly reduces the amount of code that you must write and is required for the other scripts to work.
+2) jQuery Innerfade is only used on the homepage. It is used to cycle the images through a slideshow. In the head of the index.html you will see some code between script tags. Click here to find out about changing how the slideshow looks: medienfreunde.com/lab/innerfade
+
+You can update the images in the slideshow by editing index.html and finding the section <div class="scroller">. You can add as many images as you wish following the format: 
+<li><img src="img.jpg" alt="img" /></li> 
+
+3) The last script, DD Belated PNG is ONLY used to make transparent png images display properly in Internet Explorer 6 and below. It works on all images including repeating background images. The script is ONLY loaded on IE7 and below browsers. If you have more transparent png's you would like to add, simply attach the class="pngfix" to the element containing the png. For example:
+
+<img src="picture.png" class="pngfix" />
+
+NOTE: This theme degrades gracefully when javascript is disabled, HOWEVER, the scroller will only show the first image. Because of this I recommend putting your most important and prominent image first in the scroller HTML.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+D) PSD Files
+
+I've included one PSD with this theme.
+The site is based very lightly on images so there isn't much to say here. The logo uses the font "Optimus Princeps" which can be downloaded for free from: http://www.dafont.com/optimusprinceps.font
+
+The images in the scroller are personal photos I have taken and I allow you to use. The rest of the images are from morguefile.com
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+E) PHP Files
+
+This theme includes two php files. They are part of the contact form.
+
+contactengine.php simply processes the email when someone sends it. You will want to customize this to meet your needs. If you edit the file you will see where you need to fill in your email address and subject etc.
+
+contactthanks.php is what people see after they submit the contact form. To edit the thankyou message, edit this file and scroll down to the primary region.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+F) Miscellaneous Need-to-know info!
+
+This theme does include a favicon. To change this, you will need to create a 16x16 png and convert it to an ico file using your program of choice. www.converticon.com is the service I use and recommend.
+
+Search form
+This theme's search form is not functional and is merely provided as a template. If you would like to remove the search from the site, this is very easy. Simply delete the following code from each page:
+
+<div class="search">
+<form action="#" method="post">
+<p><input type="text" name="search" class="form-text" />
+<input type="submit" value="Search" class="form-submit" /></p>
+</form> 
+</div><!--End search  -->
+
+The theme will not break if you do this.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section. 
+
+Amy Steen
+www.creativestable.com
