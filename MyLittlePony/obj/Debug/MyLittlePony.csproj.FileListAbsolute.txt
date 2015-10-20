@@ -1,0 +1,6 @@
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony\bin\MyLittlePony.dll.config
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony\bin\MyLittlePony.dll
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony\bin\MyLittlePony.pdb
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony\obj\Debug\MyLittlePony.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony\obj\Debug\MyLittlePony.dll
+C:\Users\Administrator\Documents\Development\t3401510\MyLittlePony\obj\Debug\MyLittlePony.pdb

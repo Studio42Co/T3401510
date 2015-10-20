@@ -57,6 +57,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Prototype\contactengine.php" />
+    <Content Include="Prototype\contactthanks.php" />
+    <Content Include="Prototype\css\images\Thumbs.db" />
+    <Content Include="Prototype\files\residents\Thumbs.db" />
+    <Content Include="Prototype\files\sales\Thumbs.db" />
+    <Content Include="Prototype\files\Thumbs.db" />
+    <Content Include="Content\images\Thumbs.db" />
+    <Content Include="Assets\residents\Thumbs.db" />
+    <Content Include="Assets\sales\Thumbs.db" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,10 +74,103 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\barn.jpg" />
+    <Content Include="Assets\horses-snow.jpg" />
+    <Content Include="Assets\pony.jpg" />
+    <Content Include="Assets\progeny.jpg" />
+    <Content Include="Assets\residents\1.jpg" />
+    <Content Include="Assets\residents\2.jpg" />
+    <Content Include="Assets\residents\3.jpg" />
+    <Content Include="Assets\residents\4.jpg" />
+    <Content Include="Assets\residents\5.jpg" />
+    <Content Include="Assets\residents\6.jpg" />
+    <Content Include="Assets\residents\7.jpg" />
+    <Content Include="Assets\residents\8.jpg" />
+    <Content Include="Assets\sales\carmina.jpg" />
+    <Content Include="Assets\sales\conquest.jpg" />
+    <Content Include="Assets\sales\linario.jpg" />
+    <Content Include="Assets\sales\malt.jpg" />
+    <Content Include="Assets\sales\massimo.jpg" />
+    <Content Include="Assets\sales\whisper.jpg" />
+    <Content Include="Assets\slider-1.jpg" />
+    <Content Include="Assets\slider-2.jpg" />
+    <Content Include="Assets\slider-3.jpg" />
+    <Content Include="Assets\spruce_meadows.jpg" />
+    <Content Include="Content\front.css" />
+    <Content Include="Content\ie.css" />
+    <Content Include="Content\images\body.jpg" />
+    <Content Include="Content\images\bottom.jpg" />
+    <Content Include="Content\images\form-text.jpg" />
+    <Content Include="Content\images\glow.jpg" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\navigation-hover.jpg" />
+    <Content Include="Content\images\navigation.jpg" />
+    <Content Include="Content\images\pager.jpg" />
+    <Content Include="Content\images\read-more.jpg" />
+    <Content Include="Content\images\top-bar.jpg" />
+    <Content Include="Content\reset.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Prototype\about.html" />
+    <Content Include="Prototype\contact.html" />
+    <Content Include="Prototype\css\front.css" />
+    <Content Include="Prototype\css\ie.css" />
+    <Content Include="Prototype\css\images\body.jpg" />
+    <Content Include="Prototype\css\images\bottom.jpg" />
+    <Content Include="Prototype\css\images\form-text.jpg" />
+    <Content Include="Prototype\css\images\glow.jpg" />
+    <Content Include="Prototype\css\images\logo.png" />
+    <Content Include="Prototype\css\images\navigation-hover.jpg" />
+    <Content Include="Prototype\css\images\navigation.jpg" />
+    <Content Include="Prototype\css\images\pager.jpg" />
+    <Content Include="Prototype\css\images\read-more.jpg" />
+    <Content Include="Prototype\css\images\top-bar.jpg" />
+    <Content Include="Prototype\css\reset.css" />
+    <Content Include="Prototype\css\style.css" />
+    <Content Include="Prototype\favicon.ico" />
+    <Content Include="Prototype\files\barn.jpg" />
+    <Content Include="Prototype\files\horses-snow.jpg" />
+    <Content Include="Prototype\files\pony.jpg" />
+    <Content Include="Prototype\files\progeny.jpg" />
+    <Content Include="Prototype\files\residents\1.jpg" />
+    <Content Include="Prototype\files\residents\2.jpg" />
+    <Content Include="Prototype\files\residents\3.jpg" />
+    <Content Include="Prototype\files\residents\4.jpg" />
+    <Content Include="Prototype\files\residents\5.jpg" />
+    <Content Include="Prototype\files\residents\6.jpg" />
+    <Content Include="Prototype\files\residents\7.jpg" />
+    <Content Include="Prototype\files\residents\8.jpg" />
+    <Content Include="Prototype\files\sales\carmina.jpg" />
+    <Content Include="Prototype\files\sales\conquest.jpg" />
+    <Content Include="Prototype\files\sales\linario.jpg" />
+    <Content Include="Prototype\files\sales\malt.jpg" />
+    <Content Include="Prototype\files\sales\massimo.jpg" />
+    <Content Include="Prototype\files\sales\whisper.jpg" />
+    <Content Include="Prototype\files\slider-1.jpg" />
+    <Content Include="Prototype\files\slider-2.jpg" />
+    <Content Include="Prototype\files\slider-3.jpg" />
+    <Content Include="Prototype\files\spruce_meadows.jpg" />
+    <Content Include="Prototype\HELP_FILE.txt" />
+    <Content Include="Prototype\index.html" />
+    <Content Include="Prototype\js\dd_belatedpng.js" />
+    <Content Include="Prototype\js\jquery.innerfade.js" />
+    <Content Include="Prototype\js\jquery.js" />
+    <Content Include="Prototype\news.html" />
+    <Content Include="Prototype\sales.html" />
+    <Content Include="Script\dd_belatedpng.js" />
+    <Content Include="Script\jquery.innerfade.js" />
+    <Content Include="Script\jquery.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
