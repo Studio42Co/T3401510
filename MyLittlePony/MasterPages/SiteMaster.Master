@@ -10,8 +10,11 @@
     <title>Paragon Stables | Boarding, Training, and Sales of Quality Sport Horses in Vancouver, BC</title>
     <link rel="icon" type="image/ico" href="favicon.ico" />
 
-    <link href="~/Content/reset.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="~/Content/front.css" media="all" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="ScriptSection" runat="server">
+        <link href="/Content/reset.css" media="all" rel="stylesheet" type="text/css" />
+        <link href="/Content/style.css" media="all" rel="stylesheet" type="text/css" />
+    </asp:ContentPlaceHolder>
+
     <!--[if lt IE 8]>
     <link rel="stylesheet" type="text/css" href="css/ie.css" />
     <script type="text/javascript" src="js/dd_belatedpng.js"></script>
@@ -68,7 +71,6 @@
 
                 <div id="primary">
                     <asp:ContentPlaceHolder ID="PrimaryContainer" runat="server">
-                        
                     </asp:ContentPlaceHolder>
                 </div>
                 <!--End primary -->

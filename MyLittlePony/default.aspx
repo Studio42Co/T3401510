@@ -1,5 +1,10 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/MasterPages/SiteMaster.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="MyLittlePony._default" %>
 
+<asp:Content ContentPlaceHolderID="ScriptSection" runat="server">
+    <link href="/Content/reset.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/Content/front.css" media="all" rel="stylesheet" type="text/css" />
+</asp:Content>
+
 <asp:Content ContentPlaceHolderID="PrimaryContainer" runat="server">
     <div class="scroller">
         <ul id="fade">
